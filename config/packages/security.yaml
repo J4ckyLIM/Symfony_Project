@@ -1,7 +1,7 @@
 security:
     # https://symfony.com/doc/current/security.html#where-do-users-come-from-user-providers
     providers:
-       from database:
+       from_database:
            entity:
                class: App\Entity\User
                property: username
